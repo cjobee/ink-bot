@@ -1,0 +1,19 @@
+{
+  "name": "ink-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjobee/ink-bot.git"
+  },
+  "author": "cjobee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjobee/ink-bot/issues"
+  },
+  "homepage": "https://github.com/cjobee/ink-bot#readme"
+}
