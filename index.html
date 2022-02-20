@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>
+  </head>
+  <style>
+    body {
+      color: white;
+      padding: 0 16px;
+    }
+    li:before {
+      content: "• ";
+      width: 3em;
+    }
+
+    #layers {
+      border: 1px solid #808080;
+      border-radius: 4px;
+      padding: 16px;
+    }
+    div {
+      /* text-align: center; */
+      border: 5px solid #ffff;
+      display: inline;
+      padding: 5px;
+      color: #ffff;
+      font-family: Verdana, sans-serif, Arial;
+      font-size: 40px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <sp-heading>Layers</sp-heading>
+    <sp-body id="layers"> No layers </sp-body>
+    <div id="ten-countdown"></div>
+
+    <footer>
+      <sp-button id="btnPopulate">Populate Layers</sp-button>
+    </footer>
+  </body>
+</html>
